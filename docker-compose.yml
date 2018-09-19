@@ -71,7 +71,7 @@ services:
 
 
   vault:
-    image: 'vault'
+    image: 'vault:0.10.4'
     init: true
     #exports work around vault bug https://github.com/hashicorp/vault/issues/3866
     #IP is the IP address of the default networking route
